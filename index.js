@@ -224,7 +224,7 @@ function portfolioComponent ({ data = {}, theme = {} } = {}) {
   }
   function unhoverPortfolio() { yo.update(element, template()) }
   function openNewTab() {
-    var url = ""
+    var url = "https://lazardj321.github.io/quiz/"
     var tab = window.open(url, '_blank')
     tab.focus()
   }
